@@ -1,15 +1,11 @@
 '''
-There is a bus moving in the city which takes and drops some people at each bus stop.
+Por la ciudad circula un autobús que lleva y deja a algunas personas en cada parada.
 
-You are provided with a list (or array) of integer pairs. Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
+Se le proporciona una lista (o matriz) de pares de números enteros. Los elementos de cada par representan el número de personas que suben al autobús (el primer elemento) y el número de personas que bajan del autobús (el segundo elemento) en una parada.
 
-Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). Even though it is the last bus stop, the bus might not be empty and some people might still be inside the bus, they are probably sleeping there :D
+Tu tarea es devolver el número de personas que siguen en el autobús después de la última parada (después de la última matriz). Aunque sea la última parada, puede que el autobús no esté vacío y que todavía haya gente dentro, probablemente durmiendo :D
 
-Take a look on the test cases.
-
-Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the returned integer can't be negative.
-
-The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
+Echa un vistazo a los casos de prueba.
 '''
 
 def number(bus_stops):
